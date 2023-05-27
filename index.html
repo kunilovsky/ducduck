@@ -10,33 +10,60 @@
     </head>
     <body>
         <!-- Header -->
-        <header>
+        <header id="header">
             <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
+                <div class="container-fluid align-items-start">
+                    <div class="collapse navbar-collapse">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li id="navbar-nav__left" class="nav-item">
+                                <a href="" class="nav-link nav-link__left pb-0">
+                                    Start
+                                </a>
+                                <a href="" class="nav-link nav-link__left pb-0">
+                                    Fun
+                                </a>
+                                <a href="" class="nav-link nav-link__left pb-0">
+                                    Job
+                                </a>
+                                <a href="" class="nav-link nav-link__left pb-0">
+                                    Bar
+                                </a>
+                                <a href="" class="nav-link nav-link__left pb-0">
+                                    Scrape
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                     <button class="navbar-toggler" type="button"
                         data-bs-toggle="collapse"
-                        data-bs-target="#navbarTogglerDemo02"
-                        aria-controls="navbarTogglerDemo02"
+                        data-bs-target="#mobile"
+                        aria-controls="mobile"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse"
-                        id="navbarTogglerDemo02">
+                        id="mobile">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page"
-                                    href="#">Home</a>
+                                <a type="button" id="nav-modal" class="nav-link
+                                    nav-link__open">How we
+                                    can help <span></span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                                <a class="nav-link"
+                                    href="tel:+1873892923">+1 873 892 923</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link disabled">Disabled</a>
+                                <a title="Click to copy" type="button"
+                                    onclick="copyContent()" class="nav-link">
+                                    <span id="mail-data">
+                                        info@startduck.com
+                                    </span></a>
                             </li>
                         </ul>
                     </div>
-                    <a class="navbar-brand" href="#">
-                        <span class="logo"></span>
+                    <a id="logo" class="navbar-brand" href="#">
+                        <span id="logo-duck" class="logo"></span>
                     </a>
                 </div>
             </nav>
@@ -44,7 +71,34 @@
         <!-- /Header -->
         <!-- Main -->
         <main>
-
+            <section class="start position-relative">
+                <span class="c-white"></span>
+                <div class="container-fluid">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 start__left">
+                                <img src="assets/img/woman-start.png"
+                                    alt="Woman">
+                            </div>
+                            <div class="col-lg-6 ps-5 start__right">
+                                <h1>
+                                    <span>Hello,</span>Duck!
+                                </h1>
+                                <h2>
+                                    What's <span>up?</span>
+                                </h2>
+                                <p class="start__description">
+                                    Are you ready to <span>boost</span> <br>
+                                    your productivity?
+                                </p>
+                                <a class="start__link-contact" href="">Contact
+                                    us</a>
+                                <a class="start__link-about" href="">About us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
         <!-- /Main -->
         <!-- Footer -->
@@ -53,6 +107,11 @@
         </footer>
         <!-- /Footer -->
         <!-- Modal -->
+        <div id="modal-top-nav" class="modal-top-nav">
+            <div class="modal-top-nav__contet">
+                test
+            </div>
+        </div>
         <!-- /Modal -->
         <!-- JS -->
         <script src="assets/js/bootstrap.min.js"></script>

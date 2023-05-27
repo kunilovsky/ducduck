@@ -1,0 +1,93 @@
+.start
+    height: calc( 100vh - 176px )
+    &__left
+        background-image: url("data:image/svg+xml,%3Csvg width='559' height='480' viewBox='0 0 559 480' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.000976562 0H319.001C451.549 0 559.001 107.452 559.001 240C559.001 372.548 451.549 480 319.001 480H0.000976562V0Z' fill='%23EEA030'/%3E%3C/svg%3E%0A")
+        background-repeat: no-repeat
+        background-position: center bottom
+        background-size: 85%
+        height: 100%
+        opacity: 0
+        animation: slide-fwd-left 2s forwards
+        & img
+            padding-left: 55px
+            animation: slide-fwd-top 1s forwards
+    &__description
+        margin-top: 36px
+        margin-bottom: 60px
+        font-size: 24px
+        font-weight: 400
+        color: $white
+        animation: slide-fwd-right 1.9s forwards
+        & span
+            color: $yellow
+    & a
+        display: block
+        padding: 22px 36px
+        font-size: 16px
+        font-weight: 400
+        border-radius: 100px
+        transition: margin-right 2s
+        transition: width 2s
+    &__link-contact
+        background: $yellow
+        color: $black
+        border: 1px solid $yellow
+        width: 268px
+        background-image: url("data:image/svg+xml,%3Csvg width='33' height='20' viewBox='0 0 33 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M25.2656 15.5605L32.8191 8.00703L25.2656 0.44165L23.4575 2.24973L27.9658 6.73424L0 6.73424V9.26793H27.9658L23.4575 13.7524L25.2656 15.5605Z' fill='black'/%3E%3C/svg%3E%0A")
+        background-repeat: no-repeat
+        background-position-x: 90%
+        background-position-y: center
+        margin-bottom: 24px
+        animation: slide-fwd-right 2s forwards
+        &:hover
+            color: $black
+            width: 366px
+    &__link-about
+        color: $white
+        border: 1px solid $white
+        width: 268px
+        background-image: url("data:image/svg+xml,%3Csvg width='33' height='20' viewBox='0 0 33 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M25.2656 15.5605L32.8191 8.00703L25.2656 0.44165L23.4575 2.24973L27.9658 6.73424L0 6.73424V9.26793H27.9658L23.4575 13.7524L25.2656 15.5605Z' fill='white'/%3E%3C/svg%3E%0A")
+        background-repeat: no-repeat
+        background-position-x: 90%
+        background-position-y: center
+        animation: slide-fwd-right 2.2s forwards
+        &:hover
+            color: $white
+            width: 366px
+h1
+    animation: slide-fwd-right 1.5s forwards
+h2
+    animation: slide-fwd-right 1.7s forwards
+.c-white
+    position: absolute
+    left: 0
+    bottom: 18%
+    background-image: url("data:image/svg+xml,%3Csvg width='86' height='396' viewBox='0 0 86 396' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M25.4229 395.687C58.099 395.687 85.3291 368.49 85.3291 335.852C85.3291 302.309 58.099 276.018 25.4229 276.018C-8.16092 276.018 -34.4834 303.215 -34.4834 335.852C-35.3911 369.396 -8.16093 395.687 25.4229 395.687Z' fill='white'/%3E%3Cpath d='M25.4229 120.109C58.099 120.109 85.3291 92.9117 85.3291 60.2745C85.3291 26.7307 58.099 0.439655 25.4229 0.439652C-8.16092 0.439649 -34.4834 27.6373 -34.4834 60.2745C-35.3911 92.9117 -8.16093 120.109 25.4229 120.109Z' fill='white'/%3E%3C/svg%3E%0A")
+    background-repeat: no-repeat
+    background-position: left
+    background-size: contain
+    height: 400px
+    width: 120px
+    opacity: 0
+    animation: slide-fwd-left 2s forwards
+
+@keyframes slide-fwd-top
+    0%
+        opacity: 0
+    100%
+        opacity: 1
+@keyframes slide-fwd-left
+    0%
+        transform: translateX(-50px)
+        opacity: 0
+    100%
+        transform: translateX(0)
+        opacity: 1
+
+@keyframes slide-fwd-right
+    0%
+        transform: translateX(300px)
+        opacity: 0
+    100%
+        transform: translateX(0)
+        opacity: 1
