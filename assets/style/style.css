@@ -1,0 +1,214 @@
+/* Colors */
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  src: url("../fonts/HelveticaNeueCyr-Medium.eot");
+  src: url("../fonts/HelveticaNeueCyr-Medium.eot");
+  src: local("HelveticaNeueCyr-Medium");
+  src: url("../fonts/HelveticaNeueCyr-Medium.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/HelveticaNeueCyr-Medium.woff") format("woff");
+  src: url("../fonts/HelveticaNeueCyr-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  src: url("../fonts/HelveticaNeueCyr-Heavy.eot");
+  src: local("HelveticaNeueCyr-Heavy");
+  src: url("../fonts/HelveticaNeueCyr-Heavy.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/HelveticaNeueCyr-Heavy.woff") format("woff");
+  src: url("../fonts/HelveticaNeueCyr-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  src: url("../fonts/HelveticaNeueCyr-HeavyItalic.eot");
+  src: local("HelveticaNeueCyr-HeavyItalic");
+  src: url("../fonts/HelveticaNeueCyr-HeavyItalic.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/HelveticaNeueCyr-HeavyItalic.woff") format("woff");
+  src: url("../fonts/HelveticaNeueCyr-HeavyItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  src: url("../fonts/HelveticaNeueCyr-Black.eot");
+  src: local("HelveticaNeueCyr-Black");
+  src: url("../fonts/HelveticaNeueCyr-Black.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/HelveticaNeueCyr-Black.woff") format("woff");
+  src: url("../fonts/HelveticaNeueCyr-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  src: url("../fonts/HelveticaNeueCyr-UltraLightItalic.eot");
+  src: local("HelveticaNeueCyr-UltraLightItalic");
+  src: url("../fonts/HelveticaNeueCyr-UltraLightItalic.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/HelveticaNeueCyr-UltraLightItalic.woff") format("woff");
+  src: url("../fonts/HelveticaNeueCyr-UltraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  src: url("../fonts/HelveticaNeueCyr-BlackItalic.eot");
+  src: local("HelveticaNeueCyr-BlackItalic");
+  src: url("../fonts/HelveticaNeueCyr-BlackItalic.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/HelveticaNeueCyr-BlackItalic.woff") format("woff");
+  src: url("../fonts/HelveticaNeueCyr-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  src: url("../fonts/HelveticaNeueCyr-ThinItalic.eot");
+  src: local("HelveticaNeueCyr-ThinItalic");
+  src: url("../fonts/HelveticaNeueCyr-ThinItalic.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/HelveticaNeueCyr-ThinItalic.woff") format("woff");
+  src: url("../fonts/HelveticaNeueCyr-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  src: url("../fonts/HelveticaNeueCyr-MediumItalic.eot");
+  src: local("HelveticaNeueCyr-MediumItalic");
+  src: url("../fonts/HelveticaNeueCyr-MediumItalic.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/HelveticaNeueCyr-MediumItalic.woff") format("woff");
+  src: url("../fonts/HelveticaNeueCyr-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  src: url("../fonts/HelveticaNeueCyr-LightItalic.eot");
+  src: local("HelveticaNeueCyr-LightItalic");
+  src: url("../fonts/HelveticaNeueCyr-LightItalic.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/HelveticaNeueCyr-LightItalic.woff") format("woff");
+  src: url("../fonts/HelveticaNeueCyr-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  src: url("../fonts/HelveticaNeueCyr-UltraLight.eot");
+  src: local("HelveticaNeueCyr-UltraLight");
+  src: url("../fonts/HelveticaNeueCyr-UltraLight.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/HelveticaNeueCyr-UltraLight.woff") format("woff");
+  src: url("../fonts/HelveticaNeueCyr-UltraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  src: url("../fonts/HelveticaNeueCyr-BoldItalic.eot");
+  src: local("HelveticaNeueCyr-BoldItalic");
+  src: url("../fonts/HelveticaNeueCyr-BoldItalic.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/HelveticaNeueCyr-BoldItalic.woff") format("woff");
+  src: url("../fonts/HelveticaNeueCyr-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  src: url("../fonts/HelveticaNeueCyr-Italic.eot");
+  src: local("HelveticaNeueCyr-Italic");
+  src: url("../fonts/HelveticaNeueCyr-Italic.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/HelveticaNeueCyr-Italic.woff") format("woff");
+  src: url("../fonts/HelveticaNeueCyr-Italic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  src: url("../fonts/HelveticaNeueCyr-Roman.eot");
+  src: local("HelveticaNeueCyr-Roman");
+  src: url("../fonts/HelveticaNeueCyr-Roman.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/HelveticaNeueCyr-Roman.woff") format("woff");
+  src: url("../fonts/HelveticaNeueCyr-Roman.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  src: url("../fonts/HelveticaNeueCyr-Bold.eot");
+  src: local("HelveticaNeueCyr-Bold");
+  src: url("../fonts/HelveticaNeueCyr-Bold.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/HelveticaNeueCyr-Bold.woff") format("woff");
+  src: url("../fonts/HelveticaNeueCyr-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  src: url("../fonts/HelveticaNeueCyr-Light.eot");
+  src: local("HelveticaNeueCyr-Light");
+  src: url("../fonts/HelveticaNeueCyr-Light.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/HelveticaNeueCyr-Light.woff") format("woff");
+  src: url("../fonts/HelveticaNeueCyr-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  src: url("../fonts/HelveticaNeueCyr-Thin.eot");
+  src: local("HelveticaNeueCyr-Thin");
+  src: url("../fonts/HelveticaNeueCyr-Thin.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/HelveticaNeueCyr-Thin.woff") format("woff");
+  src: url("../fonts/HelveticaNeueCyr-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+body {
+  font-family: HelveticaNeueCyr, "sans-serif";
+  background: #000;
+}
+
+.navbar-brand {
+  max-width: 168px;
+}
+.navbar-brand::before {
+  background-image: url("data:image/svg+xml,%3Csvg width='83' height='19' viewBox='0 0 83 19' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14.0938 8.17714C13.2323 7.71429 12.1681 7.40571 10.8506 7.25143L8.77285 6.94286C8.11406 6.84 7.55662 6.73714 7.15122 6.58286C6.74581 6.42857 6.49243 6.22286 6.3404 6.01714C6.18837 5.76 6.08702 5.50286 6.08702 5.19429C6.08702 4.98857 6.1377 4.73143 6.23905 4.52571C6.3404 4.32 6.49243 4.11429 6.69513 4.01143C6.94851 3.85714 7.20189 3.75429 7.50595 3.70286C7.91135 3.6 8.26609 3.6 8.67149 3.6C9.53298 3.6 10.2424 3.80571 10.6479 4.16571C11.1039 4.57714 11.408 5.19429 11.56 6.06857L16.0702 5.50286C15.9182 4.26857 15.5127 3.24 14.9553 2.41714C14.4486 1.59429 13.6377 0.977143 12.6242 0.617143C11.6107 0.205714 10.3438 0 8.8742 0C7.86068 0 6.84716 0.102857 5.83364 0.411429C4.97215 0.668571 4.21201 1.02857 3.50255 1.54286C2.84376 2.05714 2.337 2.67429 1.98227 3.34286C1.62754 4.11429 1.47551 4.88571 1.47551 5.70857C1.47551 6.37714 1.57686 7.04571 1.83024 7.71429C2.03294 8.28 2.38768 8.79429 2.84376 9.25714C3.35052 9.72 3.90795 10.08 4.51607 10.3371C5.27621 10.6457 6.08702 10.8514 6.89784 10.9543L9.0769 11.2629C9.83704 11.3657 10.4452 11.52 10.8506 11.6743C11.256 11.8286 11.56 12.0343 11.7121 12.2914C11.8641 12.5486 11.9654 12.8571 11.9654 13.1657C11.9654 13.4229 11.9148 13.6286 11.8134 13.8343C11.7121 14.04 11.5093 14.2457 11.3066 14.3486C11.0026 14.5029 10.6985 14.6057 10.3945 14.6571C9.98907 14.76 9.53298 14.76 9.0769 14.76C8.41811 14.76 7.81 14.6571 7.30324 14.4514C6.84716 14.2457 6.39108 13.9371 6.1377 13.4743C5.83364 13.0629 5.63094 12.4971 5.52959 11.8286L0.96875 12.3943C1.12078 13.4229 1.37416 14.2971 1.72889 15.0171C2.08362 15.7371 2.64106 16.3543 3.24917 16.8171C3.90795 17.28 4.66809 17.64 5.63094 17.8971C6.5431 18.1543 7.65798 18.2571 8.8742 18.2571C10.0904 18.2571 11.1546 18.1543 12.1175 17.8971C13.0803 17.64 13.8911 17.28 14.5499 16.7657C15.2087 16.3029 15.7155 15.6857 16.0702 14.9657C16.4249 14.2457 16.5769 13.4743 16.5769 12.5486C16.5769 11.52 16.3742 10.5943 15.9688 9.87429C15.5634 9.20572 14.9553 8.64 14.0938 8.17714Z' fill='%23E7E8E9'/%3E%3Cpath d='M32.7909 0.257812L17.6895 0.257812V4.06353L22.8584 4.06353L22.8584 18.0007H27.5206L27.5206 4.06353H32.7909V0.257812Z' fill='%23E7E8E9'/%3E%3Cpath d='M38.1145 0.257812L31.1719 18.0007H35.7327L36.9489 14.6064H43.7395L44.9557 18.0007H49.7193L42.7767 0.257812L38.1145 0.257812ZM38.2665 10.955L40.3442 5.19496L42.4219 10.955H38.2665Z' fill='%23E7E8E9'/%3E%3Cpath d='M63.4542 10.6978C64.3157 10.2864 65.0251 9.66924 65.4812 8.84638C65.9373 8.02353 66.1907 7.09781 66.1907 6.01781C66.1907 5.0921 66.0387 4.32067 65.7853 3.60067C65.5319 2.9321 65.1265 2.31496 64.6197 1.80067C64.0623 1.28638 63.4542 0.874955 62.7447 0.669241C61.9339 0.412098 61.1231 0.257812 60.3123 0.257812L55.6501 0.257812L51.748 0.257812V18.0007H56.3596V11.7264L57.5758 11.7264L61.7312 18.0007L66.9508 18.0007L62.1873 11.1092C62.6434 11.0064 63.0995 10.9035 63.4542 10.6978ZM61.5285 6.8921C61.4272 7.14924 61.2751 7.35495 61.1231 7.56067C60.9204 7.71495 60.667 7.86924 60.4136 7.9721C60.1096 8.07495 59.8055 8.12638 59.4508 8.12638H56.3089V4.0121L59.4508 4.0121C59.7548 4.0121 60.1096 4.06353 60.4136 4.16638C60.667 4.26924 60.9204 4.3721 61.1231 4.57781C61.3258 4.7321 61.4778 4.98924 61.5285 5.19496C61.6299 5.50353 61.6805 5.76067 61.6805 6.06924C61.6805 6.27496 61.6299 6.58353 61.5285 6.8921Z' fill='%23E7E8E9'/%3E%3Cpath d='M67.8105 4.06353L73.0302 4.06353V18.0007H77.6417V4.06353H82.912V0.257812L67.8105 0.257812V4.06353Z' fill='%23E7E8E9'/%3E%3C/svg%3E%0A");
+  content: "";
+  width: 82px;
+  height: 19px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-flex;
+}
+.navbar-brand::after {
+  background-image: url("data:image/svg+xml,%3Csvg width='56' height='19' viewBox='0 0 56 19' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11.4148 11.1607C11.4148 11.6235 11.3641 12.1378 11.212 12.6007C11.1107 13.0121 10.8573 13.3721 10.6039 13.6292C10.3506 13.9378 9.99583 14.1435 9.6411 14.2464C9.18502 14.4007 8.72893 14.4521 8.27284 14.4521C7.61406 14.4521 7.00595 14.3492 6.54986 14.0921C6.09378 13.835 5.68837 13.4235 5.48567 12.9607C5.23229 12.4464 5.13094 11.8807 5.13094 11.1607L5.13094 0.257812L0.46875 0.257812L0.46875 11.0064C0.46875 12.1378 0.620778 13.1664 0.975509 14.0921C1.27957 14.9664 1.837 15.7378 2.49579 16.4064C3.20525 17.075 4.06674 17.5378 4.97891 17.8464C5.94175 18.155 7.05662 18.3607 8.27284 18.3607C9.48907 18.3607 10.6039 18.2064 11.5668 17.8464C12.4789 17.5378 13.2898 17.075 13.9992 16.4064C14.658 15.7892 15.2154 14.9664 15.5195 14.0921C15.8742 13.1664 16.0769 12.1892 16.0769 11.0064V0.257812L11.4654 0.257812L11.4654 11.1607H11.4148Z' fill='%23E7E8E9'/%3E%3Cpath d='M24.2857 5.76C24.4884 5.34857 24.7925 4.98857 25.0965 4.68C25.4006 4.37143 25.806 4.16571 26.2114 4.01143C26.6675 3.85714 27.1236 3.75429 27.6303 3.80571C28.2384 3.80571 28.7959 3.90857 29.3533 4.21714C29.8601 4.47429 30.2655 4.88571 30.5695 5.4C30.8736 5.91429 31.127 6.53143 31.279 7.30286L35.9412 6.37714C35.6371 4.98857 35.1304 3.80571 34.3702 2.88C33.6101 1.95429 32.6472 1.23429 31.5324 0.771429C30.3668 0.257143 29.0493 0 27.6303 0C26.6675 0 25.654 0.154286 24.7418 0.411429C23.8803 0.668571 23.0695 1.08 22.3094 1.64571C21.5999 2.16 20.9918 2.82857 20.485 3.54857C19.9783 4.32 19.5729 5.19429 19.3195 6.06857C19.0661 7.04571 18.9141 8.07429 18.9141 9.10286C18.9141 9.97714 19.0154 10.8 19.1674 11.6743C19.3195 12.4457 19.5728 13.2171 19.9276 13.8857C20.2316 14.5543 20.6877 15.1714 21.1945 15.7371C21.7012 16.3029 22.3093 16.7143 22.9175 17.1257C23.5762 17.5371 24.3364 17.7943 25.0965 18C25.958 18.2057 26.8195 18.3086 27.681 18.3086C29.1506 18.3086 30.4682 18.0514 31.5831 17.5886C32.6979 17.1257 33.7114 16.3543 34.4209 15.4286C35.181 14.4514 35.6878 13.2686 35.9412 11.88L31.3297 11.0057C31.2283 11.7771 30.9749 12.4457 30.6709 12.96C30.3668 13.4743 29.9614 13.8857 29.4547 14.1429C28.9479 14.4 28.3398 14.5543 27.681 14.5543C27.2249 14.5543 26.7182 14.5029 26.2621 14.3486C25.8567 14.1943 25.5019 13.9886 25.1472 13.68C24.7925 13.3714 24.5391 13.0114 24.3364 12.6C24.083 12.1371 23.931 11.6229 23.8296 11.1086C23.7283 10.4914 23.6776 9.87428 23.6776 9.20571C23.6776 8.58857 23.7283 7.92 23.8296 7.30286C23.8803 6.73714 24.0323 6.22286 24.2857 5.76Z' fill='%23E7E8E9'/%3E%3Cpath d='M47.3433 8.17781L54.59 0.257812L49.2183 0.257812L43.1879 7.04638V0.257812L38.6777 0.257812V18.0007H43.1879V12.8064L44.3534 11.5207L49.4717 18.0007L55.0967 18.0007L47.3433 8.17781Z' fill='%23E7E8E9'/%3E%3C/svg%3E%0A");
+  content: "";
+  width: 55px;
+  height: 19px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-flex;
+  margin-left: -2px;
+}
+.navbar-brand:hover span::after {
+  background-image: url("data:image/svg+xml,%3Csvg width='38' height='18' viewBox='0 0 38 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M37.3807 6.12132C37.1274 5.24703 36.722 4.37275 36.2152 3.60132C35.7084 2.88132 35.0497 2.26417 34.3402 1.74989C33.58 1.2356 32.7186 0.824174 31.8064 0.61846C30.7929 0.361317 29.7287 0.207031 28.6645 0.207031L0.404297 0.207031L0.404297 18.0013L28.6645 18.0013C29.7287 18.0013 30.7929 17.8985 31.8064 17.6413C32.7186 17.3842 33.58 17.0242 34.3402 16.5099C35.1003 16.047 35.7084 15.4299 36.2152 14.7099C36.722 13.9385 37.1274 13.1156 37.3807 12.2413C37.6341 11.2642 37.7862 10.2356 37.7862 9.20703C37.7862 8.17846 37.6341 7.14989 37.3807 6.12132Z' fill='%23EEA030'/%3E%3C/svg%3E%0A");
+  width: 38px;
+}
+
+.logo::before {
+  background-image: url("data:image/svg+xml,%3Csvg width='5' height='16' viewBox='0 0 5 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2.3314 0.697754C1.11518 0.697754 0.152344 1.6749 0.152344 2.90918C0.152344 4.14347 1.11518 5.12061 2.3314 5.12061C3.54763 5.12061 4.51047 4.14347 4.51047 2.90918C4.51047 1.6749 3.54763 0.697754 2.3314 0.697754Z' fill='%23E7E8E9'/%3E%3Cpath d='M2.3314 10.9312C1.11518 10.9312 0.152344 11.9083 0.152344 13.1426C0.152344 14.3769 1.11518 15.354 2.3314 15.354C3.54763 15.354 4.51047 14.3769 4.51047 13.1426C4.51047 11.9083 3.54763 10.9312 2.3314 10.9312Z' fill='%23E7E8E9'/%3E%3C/svg%3E%0A");
+  content: "";
+  width: 5px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-flex;
+}
+.logo::after {
+  background-image: url("data:image/svg+xml,%3Csvg width='18' height='18' viewBox='0 0 18 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M17.3807 6.12083C17.1274 5.24654 16.722 4.37226 16.2152 3.60083C15.7084 2.88083 15.0497 2.26369 14.3402 1.7494C13.58 1.23511 12.7186 0.823686 11.8064 0.617972C10.7929 0.360829 9.72868 0.206543 8.66448 0.206543L0.404297 0.206543L0.404297 18.0008H8.66448C9.72868 18.0008 10.7929 17.898 11.8064 17.6408C12.7186 17.3837 13.58 17.0237 14.3402 16.5094C15.1003 16.0465 15.7084 15.4294 16.2152 14.7094C16.722 13.938 17.1274 13.1151 17.3807 12.2408C17.6341 11.2637 17.7862 10.2351 17.7862 9.20654C17.7862 8.17797 17.6341 7.1494 17.3807 6.12083Z' fill='%23EEA030'/%3E%3C/svg%3E%0A");
+  content: "";
+  width: 18px;
+  height: 19.5px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-flex;
+  margin-left: 3px;
+  transition: 0.3s;
+}/*# sourceMappingURL=style.css.map */
