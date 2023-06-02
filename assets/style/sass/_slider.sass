@@ -1,0 +1,98 @@
+.btn-slide
+    &__left
+        background-image: url("data:image/svg+xml,%3Csvg width='17' height='20' viewBox='0 0 17 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.7344 4.43973L0.180913 11.9932L7.7344 19.5586L9.54247 17.7505L5.03417 13.266L17 13.266L17 10.7323L5.03417 10.7323L9.54247 6.2478L7.7344 4.43973Z' fill='black'/%3E%3C/svg%3E%0A")
+        background-repeat: no-repeat
+        background-size: 20%
+        background-position: center 16px
+        width: 80px
+        height: 60px
+        border: 1px solid $grey
+        border-radius: 100px
+        padding: 0
+        margin-right: 7px
+        &:hover
+            border: 1px solid $grey
+        &__silver
+            background-image: url("data:image/svg+xml,%3Csvg width='17' height='20' viewBox='0 0 17 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.7344 4.43973L0.180913 11.9932L7.7344 19.5586L9.54247 17.7505L5.03417 13.266L17 13.266L17 10.7323L5.03417 10.7323L9.54247 6.2478L7.7344 4.43973Z' fill='white'/%3E%3C/svg%3E%0A")
+    &__right
+        background-image: url("data:image/svg+xml,%3Csvg width='17' height='20' viewBox='0 0 17 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.2656 15.5603L16.8191 8.00679L9.2656 0.441406L7.45753 2.24948L11.9658 6.73399L0 6.73399V9.26768H11.9658L7.45753 13.7522L9.2656 15.5603Z' fill='black'/%3E%3C/svg%3E%0A")
+        background-repeat: no-repeat
+        background-size: 20%
+        background-position: center center
+        width: 80px
+        height: 60px
+        border: 1px solid $grey
+        border-radius: 100px
+        padding: 0
+        &:hover
+            border: 1px solid $grey
+        &__silver
+            background-image: url("data:image/svg+xml,%3Csvg width='17' height='20' viewBox='0 0 17 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.2656 15.5603L16.8191 8.00679L9.2656 0.441406L7.45753 2.24948L11.9658 6.73399L0 6.73399V9.26768H11.9658L7.45753 13.7522L9.2656 15.5603Z' fill='white'/%3E%3C/svg%3E%0A")
+.slide-item
+    width: 228px
+    height: 363px
+    transition: width .7s
+    margin-right: 57px
+    animation: slide 3s both
+    &__head
+        border-width: 0 0 1px 0
+        border-style: solid
+        border-color: $grey
+        &__silver h5
+            color: $white
+    &__body
+        padding-top: 36px
+        padding-bottom: 24px
+        font-size: 16px
+        font-weight: 400
+        line-height: 19px
+        &__silver
+            color: $silver
+    &__footer
+        & span
+            display: block
+            color: $grey
+            font-size: 16px
+            font-weight: 400
+            font-style: italic
+.slide-item-hirring
+    width: 228px
+    height: 363px
+    transition: width .7s
+    margin-right: 57px
+    animation: slide 3s both
+.slide-item-active
+    width: 456px
+    & a
+        margin-left: 90px
+.slide-item-hirring-active
+    width: 456px
+    & a
+        margin-left: 90px
+@keyframes slide
+    0%
+        opacity: 0
+    100%
+        opacity: 1
+.slide-position
+    font-size: 24px
+    font-style: italic
+    &__silver
+        color: $white
+    &__all
+        &__silver
+            color: $silver
+.position-item
+    &__size
+        padding: 0
+        background: none
+        border: none
+        width: 4%
+        color: $black
+        font-size: 24px
+        font-style: italic
+        &__silver
+            color: $white
+    &__all
+        color: $grey
+        font-size: 24px

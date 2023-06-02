@@ -1,3 +1,4 @@
+//Section Start
 .start
     height: calc( 100vh - 176px )
     &__left
@@ -91,3 +92,101 @@ h2
     100%
         transform: translateX(0)
         opacity: 1
+//Section Lib
+.lib
+    padding-top: 82px
+    padding-bottom: 150px
+    background: $yellow
+    height: auto
+    &__right
+        border-width: 1px 0 0 0
+        border-style: solid
+        border-color: $grey
+        padding-right: 12px
+        padding-left: 0
+        padding-top: 120px
+    &__btn
+        padding-top: 140px
+        padding-bottom: 60px
+// Section Dive
+.dive
+    background-image: url("data:image/svg+xml,%3Csvg width='1440' height='2339' viewBox='0 0 1440 2339' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg opacity='0.04'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M99.8339 919.291C133.609 909.272 164.883 895.495 193.655 875.456C221.175 856.669 243.692 831.621 262.457 804.067C282.472 775.261 296.232 741.445 304.989 707.63C314.996 668.804 320 628.726 320 588.648L320 275.539L-343 275.539L-343 587.396C-343 627.474 -339.247 667.551 -329.24 706.377C-320.483 740.193 -306.723 772.756 -287.958 802.815C-270.445 830.368 -246.677 854.164 -220.408 874.203C-192.887 894.242 -161.613 909.272 -129.089 918.039C-92.8113 928.058 -54.0321 933.068 -16.5038 933.068C23.5264 934.32 62.3056 929.311 99.8339 919.291ZM263.734 82.6608C263.734 37.5731 226.206 -4.09986e-06 181.172 -6.06836e-06C134.887 -8.09154e-06 98.6098 37.5731 98.6098 82.6607C98.6098 129.001 136.138 165.322 181.172 165.322C227.457 166.574 263.734 129.001 263.734 82.6608ZM-199.156 0.000106129C-154.122 0.000108097 -116.594 37.5732 -116.594 82.6609C-116.594 129.001 -154.122 166.574 -199.156 165.322C-244.19 165.322 -281.718 129.001 -281.718 82.6609C-281.718 37.5732 -245.441 0.000104106 -199.156 0.000106129Z' fill='url(%23paint0_linear_1479_303)'/%3E%3C/g%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M355.679 1051.57C315.755 1080.15 272.358 1099.79 225.491 1114.08C173.415 1128.37 119.604 1135.52 64.0567 1133.73C43.2047 1133.73 22.0743 1132.58 1 1130.29V2339H1440V637H531V642.538C531 699.695 524.057 756.852 510.17 812.223C498.019 860.449 478.924 908.675 451.151 949.757C425.113 989.052 393.868 1024.78 355.679 1051.57Z' fill='url(%23paint1_linear_1479_303)'/%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear_1479_303' x1='-121.353' y1='344.787' x2='-145.674' y2='6.55991' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='white'/%3E%3Cstop offset='1' stop-color='white' stop-opacity='0'/%3E%3C/linearGradient%3E%3ClinearGradient id='paint1_linear_1479_303' x1='819' y1='699' x2='1354.5' y2='2022' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%230A0A0A' stop-opacity='0'/%3E%3Cstop offset='0.357062' stop-color='%230A0A0A'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E%0A")
+    background-position: top left
+    background-size: cover
+    background-repeat: no-repeat
+    padding: 150px 0
+    &__text
+        max-width: 760px
+        margin-left: 30%
+        &__title
+            color: $silver
+            &::before
+                background-image: url("data:image/svg+xml,%3Csvg width='9' height='30' viewBox='0 0 9 30' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4.48837 0.314453C2.04017 0.314453 0 2.35219 0 4.79747C0 7.31068 2.04017 9.28049 4.48837 9.28049C7.00457 9.28049 8.97674 7.24276 8.97674 4.79747C9.04474 2.28427 7.00457 0.314453 4.48837 0.314453Z' fill='%23BFBFBF'/%3E%3Cpath d='M4.48837 20.9629C2.04017 20.9629 0 23.0006 0 25.4459C0 27.9591 2.04017 29.9289 4.48837 29.9289C7.00457 29.9289 8.97674 27.8912 8.97674 25.4459C9.04474 23.0006 7.00457 20.9629 4.48837 20.9629Z' fill='%23BFBFBF'/%3E%3C/svg%3E%0A")
+                background-repeat: no-repeat
+                background-size: 100%
+                background-position: center
+                width: 10px
+                height: 35px
+                display: inline-flex
+                content: ''
+            &::after
+                background-image: url('/assets/img/item-1.png')
+                background-repeat: no-repeat
+                background-size: 100%
+                background-position: center
+                width: 120px
+                height: 36px
+                display: inline-flex
+                content: ''
+    &__description
+        font-weight: 400
+        font-size: 24px
+        line-height: 120%
+        color: $silver
+        max-width: 400px
+        margin-left: 40%
+        margin-top: 48px
+.duck-circle
+    width: 170px
+    height: 170px
+    position: absolute
+    top: 60%
+    left: 15%
+    background-image: url("data:image/svg+xml,%3Csvg width='77' height='55' viewBox='0 0 77 55' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M75.3333 18.586C74.5171 15.8345 73.3948 13.2869 71.7623 10.943C70.2319 8.70105 68.1913 6.86672 65.9467 5.33812C63.6 3.7076 60.8453 2.58662 58.0905 1.87328C54.9276 1.05802 51.6627 0.650391 48.3978 0.650391H22.8906V54.6611H48.2958C51.5607 54.6611 54.8256 54.3554 57.9885 53.5401C60.7432 52.8268 63.396 51.7058 65.8447 50.1772C68.0893 48.7505 70.0279 46.8143 71.6603 44.6742C73.2928 42.4323 74.5171 39.8846 75.2313 37.235C76.0475 34.2797 76.4557 31.1206 76.4557 28.0634C76.5577 24.8024 76.1496 21.6432 75.3333 18.586Z' fill='%23EEA030'/%3E%3Cpath d='M7.1792 5.23633C3.50617 5.23633 0.445312 8.29354 0.445312 11.9622C0.445312 15.7328 3.50617 18.6881 7.1792 18.6881C10.9543 18.6881 13.9131 15.6308 13.9131 11.9622C14.0151 8.19163 10.9543 5.23633 7.1792 5.23633Z' fill='white'/%3E%3Cpath d='M7.1792 36.2148C3.50617 36.2148 0.445312 39.2721 0.445312 42.9407C0.445312 46.7113 3.50617 49.6666 7.1792 49.6666C10.9543 49.6666 13.9131 46.6094 13.9131 42.9407C14.0151 39.2721 10.9543 36.2148 7.1792 36.2148Z' fill='white'/%3E%3C/svg%3E%0A")
+    background-repeat: no-repeat
+    background-size: 40%
+    background-position: center
+    display: inline-flex
+    content: ''
+    animation: circle-left 3s both
+.duck-text
+    width: 170px
+    height: 170px
+    animation: circle 10s infinite alternate linear
+
+@keyframes circle
+    0%
+        transform: rotate(0deg)
+    100%
+        transform: rotate(180deg)
+
+@keyframes circle-left
+    0%
+        transform: translateX(-300px)
+    100%
+        transform: translateX(0)
+// Section hiring
+.hirring
+    background: $black
+    padding-top: 82px
+    padding-bottom: 150px
+    &__h3
+        color: $silver
+// Section Skills
+.skills
+    &__description
+        font-size: 60px
+        color: $white
+        & span
+            color: $yellow
+            font-style: italic
