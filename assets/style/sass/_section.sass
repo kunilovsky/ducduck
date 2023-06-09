@@ -2,6 +2,7 @@
 .start
     height: calc( 100vh - 176px )
     &__left
+
         background-image: url("data:image/svg+xml,%3Csvg width='559' height='480' viewBox='0 0 559 480' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.000976562 0H319.001C451.549 0 559.001 107.452 559.001 240C559.001 372.548 451.549 480 319.001 480H0.000976562V0Z' fill='%23EEA030'/%3E%3C/svg%3E%0A")
         background-repeat: no-repeat
         background-position: center bottom
@@ -11,6 +12,7 @@
         animation: slide-fwd-left 2s forwards
         & img
             padding-left: 55px
+            width: 94%
             animation: slide-fwd-top 1s forwards
     &__description
         margin-top: 36px
@@ -61,9 +63,9 @@ h2
     animation: slide-fwd-right 1.7s forwards
 .c-white
     position: absolute
-    left: 0
-    bottom: 18%
-    background-image: url("data:image/svg+xml,%3Csvg width='86' height='396' viewBox='0 0 86 396' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M25.4229 395.687C58.099 395.687 85.3291 368.49 85.3291 335.852C85.3291 302.309 58.099 276.018 25.4229 276.018C-8.16092 276.018 -34.4834 303.215 -34.4834 335.852C-35.3911 369.396 -8.16093 395.687 25.4229 395.687Z' fill='white'/%3E%3Cpath d='M25.4229 120.109C58.099 120.109 85.3291 92.9117 85.3291 60.2745C85.3291 26.7307 58.099 0.439655 25.4229 0.439652C-8.16092 0.439649 -34.4834 27.6373 -34.4834 60.2745C-35.3911 92.9117 -8.16093 120.109 25.4229 120.109Z' fill='white'/%3E%3C/svg%3E%0A")
+    top: 125px
+    left: -150px
+    background-image: url("data:image/svg+xml,%3Csvg width='120' height='396' viewBox='0 0 120 396' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M59.9287 395.248C92.6049 395.248 119.835 368.05 119.835 335.413C119.835 301.869 92.6049 275.578 59.9287 275.578C26.3449 275.578 0.0224843 302.776 0.0224814 335.413C-0.885198 368.957 26.3449 395.248 59.9287 395.248Z' fill='white'/%3E%3Cpath d='M59.9287 119.67C92.6049 119.67 119.835 92.4722 119.835 59.835C119.835 26.2913 92.6049 0.000203613 59.9287 0.000200756C26.3449 0.00019782 0.0224843 27.1978 0.0224814 59.835C-0.885198 92.4722 26.3449 119.67 59.9287 119.67Z' fill='white'/%3E%3C/svg%3E%0A")
     background-repeat: no-repeat
     background-position: left
     background-size: contain
@@ -81,7 +83,7 @@ h2
     &__right
         border-width: 1px 0 0 0
         border-style: solid
-        border-color: $grey
+        border-color: #40404047
         padding-right: 12px
         padding-left: 0
         padding-top: 120px
@@ -164,10 +166,10 @@ h2
         color: $white
 // Section Skills
 .c-white-r
-    background-image: url("data:image/svg+xml,%3Csvg width='57' height='396' viewBox='0 0 57 396' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M60.4219 395.687C93.098 395.687 120.328 368.49 120.328 335.853C120.328 302.309 93.098 276.018 60.4219 276.018C26.8381 276.018 0.515648 303.215 0.515645 335.853C-0.392034 369.396 26.8381 395.687 60.4219 395.687Z' fill='white'/%3E%3Cpath d='M60.4219 120.109C93.098 120.109 120.328 92.9117 120.328 60.2745C120.328 26.7307 93.098 0.439657 60.4219 0.439654C26.8381 0.439651 0.515648 27.6373 0.515645 60.2745C-0.392034 92.9117 26.8381 120.109 60.4219 120.109Z' fill='white'/%3E%3C/svg%3E%0A")
+    background-image: url("data:image/svg+xml,%3Csvg width='120' height='396' viewBox='0 0 120 396' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M59.9287 395.248C92.6049 395.248 119.835 368.05 119.835 335.413C119.835 301.869 92.6049 275.578 59.9287 275.578C26.3449 275.578 0.0224843 302.776 0.0224814 335.413C-0.885198 368.957 26.3449 395.248 59.9287 395.248Z' fill='white'/%3E%3Cpath d='M59.9287 119.67C92.6049 119.67 119.835 92.4722 119.835 59.835C119.835 26.2913 92.6049 0.000203613 59.9287 0.000200756C26.3449 0.00019782 0.0224843 27.1978 0.0224814 59.835C-0.885198 92.4722 26.3449 119.67 59.9287 119.67Z' fill='white'/%3E%3C/svg%3E%0A")
     position: absolute
-    right: 0
-    bottom: 10%
+    right: -40px
+    top: 110px
     background-repeat: no-repeat
     background-position: right
     background-size: contain
@@ -191,12 +193,13 @@ h2
         background-image: url("data:image/svg+xml,%3Csvg width='629' height='480' viewBox='0 0 629 480' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M629 0H240C107.452 0 0 107.452 0 240C0 372.548 107.452 480 240 480H629V0Z' fill='%23EEA030'/%3E%3C/svg%3E%0A")
         background-repeat: no-repeat
         background-position: left bottom
-        background-size: 90%
+        background-size: 85%
         height: 100%
         opacity: 0
         animation: slide-fwd-left 2s forwards
         & img
-            margin-left: -10px
+            margin-left: -27.8px
+            width: 94%
     &__link-contact
         margin-top: 70px
         background: $yellow
@@ -227,6 +230,7 @@ h2
         font-size: 24px
         & span
             color: $yellow
+            font-style: italic
 @keyframes slide-fwd-left
     0%
         transform: translateX(-300px)
@@ -244,7 +248,7 @@ h2
         border-color: $grey
         padding-right: 12px
         padding-left: 0
-        padding-top: 120px
+        padding-top: 80px
 .tech-item
     align-items: center
     border-width: 0 0 1px 0
@@ -270,14 +274,22 @@ h2
         padding-left: 20px
 //Section Dive #2
 .dive
-    padding-top: 100px
+    padding-top: 130px
+    padding-bottom: 240px
+    background: url('/assets/img/bg-dive.png')
+    background-repeat: no-repeat
+    background-position: top left
     &__img
         margin-top: -40px
         margin-left: 10%
 .duck-circle
     &__2
-        top: 0
+        top: 10%
         left: 15%
+.dive
+    &__2
+        background: url('/assets/img/duck-dive2.png')
+        padding-bottom: 0
 //About Page
 .start-about
     height: calc( 100vh - 56px )
@@ -310,6 +322,8 @@ h2
     margin-bottom: 80px
     &__h2
         padding-left: 90px
+        opacity: 0
+        transform: translate(100px, 0px)
         & span
             color: $plat
             font-style: italic
@@ -317,6 +331,8 @@ h2
         font-size: 60px
         color: $white
         padding-left: 90px
+        opacity: 0
+        transform: translate(-50px, 0px)
         & span
             color: $yellow
             font-style: italic
@@ -324,6 +340,8 @@ h2
         font-size: 24px
         color: $silver
         padding-left: 90px
+        opacity: 0
+        transform: translate(-100px, 0px)
         & span
             color: $yellow
             font-style: italic
@@ -378,6 +396,9 @@ h2
     &:hover
         color: $white
         width: 366px
+.about-img
+    opacity: 0
+    transform: translate(-400px, 0px)
 //Section Designers - About Page
 .designers
     margin-bottom: 300px
@@ -389,6 +410,8 @@ h2
         border-width: 1px 0 0 0
         border-color: $grey
         padding-top: 120px
+        opacity: 0
+        transform: translate(-400px, 0px)
         &::after
             background-image: url('/assets/img/item-1.png')
             background-repeat: no-repeat
@@ -413,6 +436,8 @@ h2
         color: $silver
         padding-left: 150px
         margin-top: 96px
+        opacity: 0
+        transform: translate(-100px, 0px)
 .duck-circle-des
     width: 170px
     height: 170px
@@ -430,15 +455,21 @@ h2
 .contacts
     &__start
         padding-left: 80px
+        opacity: 0
+        transform: translate(-300px, 0px)
 .contact-form
     margin-top: 150px
     margin-bottom: 200px
     &__title
         font-size: 24px
         color: $white
+        opacity: 0
+        transform: translate(-300px, 0px)
     &__p
         font-size: 60px
         color: $white
+        opacity: 0
+        transform: translate(-100px, 0px)
         & span
             color: $yellow
             font-style: italic
@@ -453,3 +484,26 @@ h2
     font-size: 36px
     font-weight: 500
     color: $white
+//Other
+.c-white-3
+    top: 270px
+    left: -120px
+.contact-link
+    display: block
+    padding: 22px 36px
+    font-size: 16px
+    font-weight: 400
+    border-radius: 100px
+    transition: margin-right 2s
+    transition: width 2s
+    margin-left: 56px
+.about-bg
+    background: url('/assets/img/duck-dive2.png')
+    background-repeat: no-repeat
+    background-position: left center
+    background-size: contain
+.designers
+    background: url('/assets/img/duck-dive2-b.png')
+    background-repeat: no-repeat
+    background-position: right center
+    background-size: contain

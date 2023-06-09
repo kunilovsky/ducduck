@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 //Copy e-mail
 let text = document.getElementById('mail-data').innerHTML;

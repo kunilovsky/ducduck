@@ -33,11 +33,11 @@
     height: 363px
     transition: width .7s
     margin-right: 57px
-    animation: slide 3s both
+    /* animation: slide 3s both */
     &__head
         border-width: 0 0 1px 0
         border-style: solid
-        border-color: $grey
+        border-color: #40404047
         &__silver h5
             color: $white
     &__body
@@ -60,7 +60,7 @@
     height: 363px
     transition: width .7s
     margin-right: 57px
-    animation: slide 3s both
+    /* animation: slide 3s both */
 .slide-item-active
     width: 456px
     & a
@@ -100,7 +100,7 @@
 //Slide Cases
 .slide-ceses
     display: none
-    animation: slide-w 2s forwards
+    /* animation: slide-w 2s forwards */
 .slide-cases
     width: 100%
     &__item
@@ -127,6 +127,12 @@
         min-height: 228px
 .slide-ceses-active
     display: block
+.platform
+    font-style: italic
+    color: $grey
+.date
+    color: #404040
+    font-size: 24px
 @keyframes slide-w
     0%
         opacity: 0
