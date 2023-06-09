@@ -1,0 +1,20 @@
+<svg width="1260" height="710" viewBox="0 0 1260 710" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<mask id="mask0_460_1130" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1260" height="710">
+<path d="M0 0H1020C1032.58 0 1044.94 230.968 1057 232.835C1171.98 250.627 1260 350.035 1260 470C1260 602.548 1152.55 710 1020 710H0V0Z" fill="#EEA030"/>
+</mask>
+<g mask="url(#mask0_460_1130)">
+<mask id="mask1_460_1130" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-144" y="230" width="1404" height="480">
+<path d="M-144 230H1020C1032.58 230 1044.94 230.968 1057 232.835C1171.98 250.627 1260 350.035 1260 470C1260 602.548 1152.55 710 1020 710H-144V230Z" fill="#EEA030"/>
+</mask>
+<g mask="url(#mask1_460_1130)">
+<rect x="-145" y="-59" width="1404" height="861" fill="#EEA030"/>
+</g>
+<rect x="152" y="37" width="973" height="833" fill="url(#pattern0)"/>
+</g>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_460_1130" transform="matrix(0.000856898 0 0 0.00100091 0 -0.000457252)"/>
+</pattern>
+<image id="image0_460_1130" width="1167" height="1000" xlink:href="assets/img/woman-contact.png"/>
+</defs>
+</svg>

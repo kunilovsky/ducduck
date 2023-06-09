@@ -142,4 +142,15 @@
     opacity: 1
     transform: translate(-130px, 0px)
     transition: all 1s ease .5s
+.img-mask._active
+    opacity: 1
+    transform: translateX(0px)
+    transition: all 1s ease-in 1s
     
+@keyframes svgan
+    0%
+        transform: translateX(300px)
+        opacity: 0
+    100%
+        transform: translateX(0)
+        opacity: 1
