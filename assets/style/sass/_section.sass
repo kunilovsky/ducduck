@@ -72,26 +72,6 @@ h2
     opacity: 0
     animation: slide-fwd-left 2s forwards
 
-@keyframes slide-fwd-top
-    0%
-        opacity: 0
-    100%
-        opacity: 1
-@keyframes slide-fwd-left
-    0%
-        transform: translateX(-50px)
-        opacity: 0
-    100%
-        transform: translateX(0)
-        opacity: 1
-
-@keyframes slide-fwd-right
-    0%
-        transform: translateX(300px)
-        opacity: 0
-    100%
-        transform: translateX(0)
-        opacity: 1
 //Section Lib
 .lib
     padding-top: 82px
@@ -108,13 +88,19 @@ h2
     &__btn
         padding-top: 140px
         padding-bottom: 60px
+        opacity: 0
+        transform: translate(-50px, 0px)
+        transition: all .9s ease 0s
+    &__btn._active
+        transform: translate(0px, 0px)
+        opacity: 1
 // Section Dive
 .dive
     &__text
         max-width: 760px
         margin-left: 30%
         &__title
-            color: $silver
+            color: $silver !important
             &::before
                 background-image: url("data:image/svg+xml,%3Csvg width='9' height='30' viewBox='0 0 9 30' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4.48837 0.314453C2.04017 0.314453 0 2.35219 0 4.79747C0 7.31068 2.04017 9.28049 4.48837 9.28049C7.00457 9.28049 8.97674 7.24276 8.97674 4.79747C9.04474 2.28427 7.00457 0.314453 4.48837 0.314453Z' fill='%23BFBFBF'/%3E%3Cpath d='M4.48837 20.9629C2.04017 20.9629 0 23.0006 0 25.4459C0 27.9591 2.04017 29.9289 4.48837 29.9289C7.00457 29.9289 8.97674 27.8912 8.97674 25.4459C9.04474 23.0006 7.00457 20.9629 4.48837 20.9629Z' fill='%23BFBFBF'/%3E%3C/svg%3E%0A")
                 background-repeat: no-repeat
@@ -138,7 +124,7 @@ h2
         font-size: 24px
         line-height: 120%
         color: $silver
-        max-width: 400px
+        max-width: 450px
         margin-left: 40%
         margin-top: 48px
 .duck-circle
@@ -153,7 +139,6 @@ h2
     background-position: center
     display: inline-flex
     content: ''
-    animation: circle-left 3s both
 .duck-text
     width: 170px
     height: 170px
@@ -163,7 +148,7 @@ h2
     0%
         transform: rotate(0deg)
     100%
-        transform: rotate(180deg)
+        transform: rotate(360deg)
 
 @keyframes circle-left
     0%
@@ -244,7 +229,7 @@ h2
             color: $yellow
 @keyframes slide-fwd-left
     0%
-        transform: translateX(300px)
+        transform: translateX(-300px)
         opacity: 0
     100%
         transform: translateX(0)
@@ -293,3 +278,101 @@ h2
     &__2
         top: 0
         left: 15%
+//About Page
+.start-about
+    height: calc( 100vh - 56px )
+.about-img
+    width: 95%
+    height: auto
+.about
+    &__h2
+        padding-left: 90px
+        & span
+            color: $plat
+            font-style: italic
+    &__dive
+        &__text
+            margin-left: 0
+        &__title
+            &::before
+                margin-left: 150px
+        &__description
+            margin-top: 90px
+            margin-left: 22%
+.dive-border
+    border: 1px solid $grey
+    border-width: 0 0 1px 0
+    padding-bottom: 200px
+//So-duck
+.so-duck
+    margin-top: 150px
+    &__h2
+        padding-left: 90px
+        & span
+            color: $plat
+            font-style: italic
+    &__p
+        font-size: 60px
+        color: $white
+        padding-left: 90px
+        & span
+            color: $yellow
+            font-style: italic
+    &__description  
+        font-size: 24px
+        color: $silver
+        padding-left: 90px
+        & span
+            color: $yellow
+            font-style: italic
+    &__left a
+        display: block
+        padding: 22px 36px
+        font-size: 16px
+        font-weight: 400
+        border-radius: 100px
+        transition: margin-right 2s
+        transition: width 2s
+        margin-left: 90px
+        margin-top: 100px
+    &__right
+        height: 425px
+    &__item
+        margin-top: auto
+        margin-right: 50px
+    &__item-1
+        background-image: url("data:image/svg+xml,%3Csvg width='147' height='146' viewBox='0 0 147 146' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M48.8151 3.20169C41.3264 5.4232 34.3925 8.47778 28.0132 12.9208C21.9113 17.0862 16.9189 22.64 12.7585 28.7491C8.32076 35.136 5.26981 42.6336 3.3283 50.1312C1.10943 58.7396 -3.42297e-06 67.6256 -3.03455e-06 76.5117L0 145.934L147 145.934L147 76.7894C147 67.9033 146.168 59.0173 143.949 50.4089C142.008 42.9113 138.957 35.6914 134.796 29.0268C130.913 22.9176 125.643 17.6415 119.819 13.1985C113.717 8.75546 106.783 5.4232 99.5717 3.47937C91.5283 1.25785 82.9302 0.147106 74.6094 0.147107C65.734 -0.130588 57.1359 0.980161 48.8151 3.20169Z' fill='%23EEA030'/%3E%3C/svg%3E%0A")
+        width: 145px
+        height: 70px
+        transition: height 1s
+        background-position: bottom center
+        background-repeat: no-repeat
+        border-radius: 100px 100px 0 0
+    &__item-2
+        background-image: url("data:image/svg+xml,%3Csvg width='147' height='267' viewBox='0 0 147 267' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M48.8151 3.8508C41.3264 6.07232 34.3925 9.12692 28.0132 13.5699C21.9113 17.7353 16.9189 23.2891 12.7585 29.3982C8.32075 35.7851 5.26981 43.2827 3.3283 50.7803C1.10943 59.3887 -3.42297e-06 68.2747 -3.03455e-06 77.1608L0 266.934L147 266.934L147 77.4385C147 68.5524 146.168 59.6664 143.949 51.058C142.008 43.5604 138.957 36.3405 134.796 29.6759C130.913 23.5668 125.643 18.2906 119.819 13.8476C113.717 9.40457 106.783 6.07232 99.5717 4.12847C91.5283 1.90698 82.9302 0.7962 74.6094 0.7962C65.734 0.518491 57.1359 1.62927 48.8151 3.8508Z' fill='%23EEA030'/%3E%3C/svg%3E%0A")
+        width: 145px
+        height: 70px
+        transition: height 2s
+        background-position: bottom center
+        background-repeat: no-repeat
+        border-radius: 100px 100px 0 0
+    &__item-3
+        background-image: url("data:image/svg+xml,%3Csvg width='147' height='378' viewBox='0 0 147 378' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M48.8151 3.0964C41.3264 5.3179 34.3924 8.3725 28.0132 12.8156C21.9113 16.9809 16.9189 22.5347 12.7585 28.6438C8.32075 35.0307 5.26981 42.5283 3.3283 50.0259C1.10943 58.6343 -3.42297e-06 67.5204 -3.03455e-06 76.4064L0 377.934L147 377.934L147 76.6841C147 67.798 146.168 58.912 143.949 50.3036C142.008 42.806 138.957 35.5861 134.796 28.9215C130.913 22.8123 125.643 17.5362 119.819 13.0932C113.717 8.65017 106.783 5.3179 99.5717 3.37408C91.5283 1.15258 82.9302 0.0417749 74.6094 0.0417753C65.7339 -0.235904 57.1358 0.874875 48.8151 3.0964Z' fill='%23EEA030'/%3E%3C/svg%3E%0A")
+        width: 145px
+        height: 70px
+        transition: height 2s
+        background-position: bottom center
+        background-repeat: no-repeat
+        border-radius: 100px 100px 0 0
+.about-f
+    color: $white !important
+    border: 1px solid $white !important
+    width: 268px
+    background-image: url("data:image/svg+xml,%3Csvg width='33' height='20' viewBox='0 0 33 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M25.2656 15.5605L32.8191 8.00703L25.2656 0.44165L23.4575 2.24973L27.9658 6.73424L0 6.73424V9.26793H27.9658L23.4575 13.7524L25.2656 15.5605Z' fill='white'/%3E%3C/svg%3E%0A")
+    background-repeat: no-repeat
+    background-position-x: 90%
+    background-position-y: center
+    animation: slide-fwd-right-2 2.2s forwards
+    &:hover
+        color: $white
+        width: 366px

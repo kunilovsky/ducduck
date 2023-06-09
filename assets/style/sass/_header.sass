@@ -42,6 +42,8 @@
         background-position-x: 98%
         /* transition: .1s */
         transition: width .1s
+.nav-item
+    margin-right: 70px
 .nav-link
     color: $plat
     font-weight: 550
@@ -54,6 +56,8 @@
         line-height: 100%
         &:hover
             color: $yellow
+    &__left-active
+        color: $yellow
     &__open
         display: flex
         align-items: center
@@ -103,3 +107,40 @@
 .logo-dark
     &::after
         background-image: url("data:image/svg+xml,%3Csvg width='18' height='18' viewBox='0 0 18 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M17.3807 6.12083C17.1274 5.24654 16.722 4.37226 16.2152 3.60083C15.7084 2.88083 15.0497 2.26369 14.3402 1.7494C13.58 1.23511 12.7186 0.823686 11.8064 0.617972C10.7929 0.360829 9.72868 0.206543 8.66448 0.206543L0.404297 0.206543L0.404297 18.0008H8.66448C9.72868 18.0008 10.7929 17.898 11.8064 17.6408C12.7186 17.3837 13.58 17.0237 14.3402 16.5094C15.1003 16.0465 15.7084 15.4294 16.2152 14.7094C16.722 13.938 17.1274 13.1151 17.3807 12.2408C17.6341 11.2637 17.7862 10.2351 17.7862 9.20654C17.7862 8.17797 17.6341 7.1494 17.3807 6.12083Z' fill='black'/%3E%3C/svg%3E%0A")
+.nav-addons
+    margin-left: 302px
+    & ul
+        padding-left: 0
+        & li
+            list-style: none
+            font-size: 24px
+            font-weight: 500
+        & li a
+            color: $black
+.navbar-collapse
+    border: 1px solid $grey
+    border-width: 0 0 1px 0
+.navbar-brand
+    border: 1px solid $grey
+    border-width: 0 0 1px 0
+.navbar-plus
+    border: none
+//About Page
+.navbar-about
+    border: none
+.brand-about
+    border: none
+.header-line 
+    border: 1px solid $grey
+    border-width: 1px 0 0 0
+    width: 300px
+    margin-left: 40px
+    margin-right: 40px
+    margin-top: 15px
+    &__right
+        width: 90px
+.nav-item-about
+    margin-right: 0
+.navbar-nav-about
+    justify-content: space-between
+    width: 100%
