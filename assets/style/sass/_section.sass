@@ -19,7 +19,7 @@
         margin-bottom: 60px
         font-size: 24px
         font-weight: 400
-        color: $white
+        color: $silver
         animation: slide-fwd-right 1.9s forwards
         & span
             color: $yellow
@@ -57,6 +57,9 @@
         &:hover
             color: $white
             width: 366px
+    &__h2
+        font-size: 60px !important
+
 h1
     animation: slide-fwd-right 1.5s forwards
 h2
@@ -83,10 +86,12 @@ h2
     &__right
         border-width: 1px 0 0 0
         border-style: solid
-        border-color: #40404047
+        border-color: #bfbfbf48
         padding-right: 12px
         padding-left: 0
         padding-top: 120px
+    &__right-2
+        border-color: #404040 !important
     &__btn
         padding-top: 140px
         padding-bottom: 60px
@@ -99,8 +104,8 @@ h2
 // Section Dive
 .dive
     &__text
-        max-width: 760px
-        margin-left: 30%
+        max-width: 800px
+        margin-left: 25%
         &__title
             color: $silver !important
             &::before
@@ -133,8 +138,8 @@ h2
     width: 170px
     height: 170px
     position: absolute
-    top: 60%
-    left: 15%
+    top: 50%
+    left: 5%
     background-image: url("data:image/svg+xml,%3Csvg width='77' height='55' viewBox='0 0 77 55' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M75.3333 18.586C74.5171 15.8345 73.3948 13.2869 71.7623 10.943C70.2319 8.70105 68.1913 6.86672 65.9467 5.33812C63.6 3.7076 60.8453 2.58662 58.0905 1.87328C54.9276 1.05802 51.6627 0.650391 48.3978 0.650391H22.8906V54.6611H48.2958C51.5607 54.6611 54.8256 54.3554 57.9885 53.5401C60.7432 52.8268 63.396 51.7058 65.8447 50.1772C68.0893 48.7505 70.0279 46.8143 71.6603 44.6742C73.2928 42.4323 74.5171 39.8846 75.2313 37.235C76.0475 34.2797 76.4557 31.1206 76.4557 28.0634C76.5577 24.8024 76.1496 21.6432 75.3333 18.586Z' fill='%23EEA030'/%3E%3Cpath d='M7.1792 5.23633C3.50617 5.23633 0.445312 8.29354 0.445312 11.9622C0.445312 15.7328 3.50617 18.6881 7.1792 18.6881C10.9543 18.6881 13.9131 15.6308 13.9131 11.9622C14.0151 8.19163 10.9543 5.23633 7.1792 5.23633Z' fill='white'/%3E%3Cpath d='M7.1792 36.2148C3.50617 36.2148 0.445312 39.2721 0.445312 42.9407C0.445312 46.7113 3.50617 49.6666 7.1792 49.6666C10.9543 49.6666 13.9131 46.6094 13.9131 42.9407C14.0151 39.2721 10.9543 36.2148 7.1792 36.2148Z' fill='white'/%3E%3C/svg%3E%0A")
     background-repeat: no-repeat
     background-size: 40%
@@ -168,8 +173,8 @@ h2
 .c-white-r
     background-image: url("data:image/svg+xml,%3Csvg width='120' height='396' viewBox='0 0 120 396' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M59.9287 395.248C92.6049 395.248 119.835 368.05 119.835 335.413C119.835 301.869 92.6049 275.578 59.9287 275.578C26.3449 275.578 0.0224843 302.776 0.0224814 335.413C-0.885198 368.957 26.3449 395.248 59.9287 395.248Z' fill='white'/%3E%3Cpath d='M59.9287 119.67C92.6049 119.67 119.835 92.4722 119.835 59.835C119.835 26.2913 92.6049 0.000203613 59.9287 0.000200756C26.3449 0.00019782 0.0224843 27.1978 0.0224814 59.835C-0.885198 92.4722 26.3449 119.67 59.9287 119.67Z' fill='white'/%3E%3C/svg%3E%0A")
     position: absolute
-    right: -40px
-    top: 110px
+    right: -10%
+    top: 20%
     background-repeat: no-repeat
     background-position: right
     background-size: contain
@@ -198,8 +203,8 @@ h2
         opacity: 0
         animation: slide-fwd-left 2s forwards
         & img
-            margin-left: -27.8px
-            width: 94%
+            margin-left: -28.5px
+            width: 93%
     &__link-contact
         margin-top: 70px
         background: $yellow
@@ -275,17 +280,18 @@ h2
 //Section Dive #2
 .dive
     padding-top: 130px
-    padding-bottom: 240px
+    padding-bottom: 40px
     background: url('/assets/img/bg-dive.png')
     background-repeat: no-repeat
-    background-position: top left
+    background-position: top top
+    background-size: 60%
     &__img
         margin-top: -40px
         margin-left: 10%
 .duck-circle
     &__2
-        top: 10%
-        left: 15%
+        top: 12%
+        left: 5%
 .dive
     &__2
         background: url('/assets/img/duck-dive2.png')
@@ -298,7 +304,7 @@ h2
     height: auto
 .about
     &__h2
-        padding-left: 90px
+        padding-left: 60px
         & span
             color: $plat
             font-style: italic
@@ -412,6 +418,7 @@ h2
         padding-top: 120px
         opacity: 0
         transform: translate(-400px, 0px)
+        line-height: 120%
         &::after
             background-image: url('/assets/img/item-1.png')
             background-repeat: no-repeat
@@ -438,6 +445,7 @@ h2
         margin-top: 96px
         opacity: 0
         transform: translate(-100px, 0px)
+        line-height: 120%
 .duck-circle-des
     width: 170px
     height: 170px
@@ -454,9 +462,9 @@ h2
 //Contact Page
 .contacts
     &__start
-        padding-left: 80px
         opacity: 0
         transform: translate(-300px, 0px)
+        margin-top: -50px
 .contact-form
     margin-top: 150px
     margin-bottom: 200px
@@ -507,3 +515,80 @@ h2
     background-repeat: no-repeat
     background-position: right center
     background-size: contain
+.h1, .h2, .h3, h4, .h5
+    margin-bottom: 0 !important
+    line-height: 90% !important
+.about-title
+    margin-top: 30px
+//Project
+
+.project
+    background: none
+.date-2
+    color: $silver !important
+.platform-2
+    color: $silver !important
+.project-item
+    line-height: 100%
+    font-size: 48px
+.project-text
+    margin-top: 30px
+    height: 150px
+    overflow: hidden
+    text-overflow: ellipsis
+    & a
+        color: $silver
+    & p
+        color: $silver
+        font-size: 24px
+        line-height: 120%
+.project-link
+    color: $silver
+    &:hover
+        color: $silver
+.btn-read
+    background: none
+    font-size: 18px
+    font-weight: 400
+    text-decoration: underline
+    padding: 0
+    margin-top: 15px
+.text-open
+    height: auto
+
+.project-circle-1
+    background-image: url('/assets/img/pro-3-logo.svg')
+    width: 170px
+    height: 170px
+    position: absolute
+    top: 130px
+    left: 5%
+    background-repeat: no-repeat
+    background-size: 40%
+    background-position: center
+    display: inline-flex
+    content: ''
+.project-circle-2
+    background-image: url('/assets/img/pro-1-logo.svg')
+    width: 170px
+    height: 170px
+    position: absolute
+    top: 130px
+    left: 5%
+    background-repeat: no-repeat
+    background-size: 40%
+    background-position: center
+    display: inline-flex
+    content: ''
+.project-circle-3
+    background-image: url('/assets/img/pro-2-logo.svg')
+    width: 170px
+    height: 170px
+    position: absolute
+    top: 130px
+    left: 5%
+    background-repeat: no-repeat
+    background-size: 40%
+    background-position: center
+    display: inline-flex
+    content: ''

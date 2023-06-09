@@ -8,27 +8,6 @@ const copyContent = async () => {
   } catch (err) {}
 };
 
-//Open nav modal
-const navBtnModal = document.getElementById('nav-modal');
-const navModal = document.getElementById('modal-top-nav');
-const headerColor = document.getElementById('header');
-const navbarLeft = document.getElementById('navbar-nav__left');
-const navItem = document.querySelectorAll('.nav-link');
-const logo = document.getElementById('logo');
-const logoDuck = document.getElementById('logo-duck');
-
-navBtnModal.addEventListener('click', () => {
-  navBtnModal.classList.toggle('nav-modal-open');
-  navModal.classList.toggle('modal-top-nav-active');
-  headerColor.classList.toggle('header-yellow');
-  navbarLeft.classList.toggle('navbar-nav__left-hide');
-  navItem.forEach((el) => {
-    el.classList.toggle('nav-link-black');
-  });
-  logo.classList.toggle('navbar-brand-black');
-  logoDuck.classList.toggle('logo-dark');
-});
-
 //Slide lib
 const slideBtnNext = document.getElementById('btn-s-next');
 const slideBtnBack = document.getElementById('btn-s-back');
@@ -119,4 +98,48 @@ slideBtnBackCases.addEventListener('click', () => {
     slidePosiitonCases.value =
       parseInt(slidePosiitonCases.value) - 1 - unitsCases;
   }
+});
+
+const btnReader = document.getElementById('read-1');
+const textReader = document.getElementById('read-text-1');
+
+btnReader.addEventListener('click', () => {
+  textReader.classList.toggle('text-open');
+});
+const btnReader2 = document.getElementById('read-2');
+const textReader2 = document.getElementById('read-text-2');
+
+btnReader2.addEventListener('click', () => {
+  textReader2.classList.toggle('text-open');
+});
+const btnReader3 = document.getElementById('read-3');
+const textReader3 = document.getElementById('read-text-3');
+
+btnReader3.addEventListener('click', () => {
+  textReader3.classList.toggle('text-open');
+});
+
+const textBtnRead1 = document.getElementById('textBtn-1');
+
+textBtnRead1.addEventListener('click', () => {
+  textBtnRead1.innerHTML =
+    textBtnRead1.innerHTML === 'Read more'
+      ? (textBtnRead1.innerHTML = 'Close')
+      : (textBtnRead1.innerHTML = 'Read more');
+});
+const textBtnRead2 = document.getElementById('textBtn-2');
+
+textBtnRead2.addEventListener('click', () => {
+  textBtnRead2.innerHTML =
+    textBtnRead2.innerHTML === 'Read more'
+      ? (textBtnRead2.innerHTML = 'Close')
+      : (textBtnRead2.innerHTML = 'Read more');
+});
+const textBtnRead3 = document.getElementById('textBtn-3');
+
+textBtnRead3.addEventListener('click', () => {
+  textBtnRead3.innerHTML =
+    textBtnRead3.innerHTML === 'Read more'
+      ? (textBtnRead3.innerHTML = 'Close')
+      : (textBtnRead3.innerHTML = 'Read more');
 });

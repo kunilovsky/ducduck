@@ -63,7 +63,7 @@
                             </li>
                         </ul>
                     </div>
-                    <a id="logo" class="navbar-brand" href="#">
+                    <a id="logo" class="navbar-brand" href="index.html">
                         <span id="logo-duck" class="logo"></span>
                     </a>
                 </div>
@@ -73,12 +73,13 @@
         <!-- Main -->
         <main>
             <section class="start ">
-                
+
                 <div class="container-fluid ">
-                    <div class="container ps-5 pe-5">
-                        <div class="row align-items-center position-relative">
+                    <div class="container ps-lg-5 pe-lg-5 pe-0">
+                        <div class="row align-items-center ">
                             <span class="c-white"></span>
-                            <div class="col-lg-6 start__left">
+                            <div class="col-lg-6 start__left position-relative">
+                                <span class="c-white"></span>
                                 <img src="assets/img/woman-start.png"
                                     alt="Woman">
                                 <!-- <svg width="721" height="605" viewBox="0 0 721 605" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -98,22 +99,26 @@
                                         </svg> -->
 
                             </div>
-                            <div class="col-lg-6 ps-5 start__right">
+                            <div class="col-lg-6 ps-lg-5 ps-0 start__right">
                                 <h1>
                                     <span>Hello,</span>Duck!
                                 </h1>
-                                <h2>
+                                <h2 class="start__h2">
                                     What's <span>up?</span>
                                 </h2>
                                 <p class="start__description">
                                     Are you ready to <span>boost</span> <br>
                                     your productivity?
                                 </p>
-                                <a class="start__link-contact"
-                                    href="contact.html">Contact
-                                    us</a>
-                                <a class="start__link-about" href="about.html">About
-                                    us</a>
+                                <div
+                                    class="d-lg-block d-flex flex-row-reverse flex-lg-grow-0 justify-content-around">
+                                    <a class="start__link-contact"
+                                        href="contact.html">Contact
+                                        us</a>
+                                    <a class="start__link-about"
+                                        href="about.html">About
+                                        us</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -121,7 +126,7 @@
             </section>
             <section class="lib">
                 <div class="container-fluid">
-                    <div class="row">
+                    <div class="row pe-0">
                         <div class="col-lg-3">
                             <h3 class="h3 _anim-items">
                                 Our <br> <span>library</span>
@@ -142,8 +147,9 @@
                                 </span>
                             </div>
                         </div>
-                        <div class="col-lg-9 lib__right _anim-items">
-                            <div class="lib__slide d-flex">
+                        <div class="col-lg-9 lib__right _anim-items pe-0">
+                            <div
+                                class="lib__slide d-flex justify-content-around">
                                 <div id="s-1"
                                     class="slide-item slide-item-active">
                                     <div
@@ -206,7 +212,7 @@
                                         </span>
                                     </div>
                                 </div>
-                                <div id="s-3" class="slide-item">
+                                <div id="s-3" class="slide-item me-0">
                                     <div
                                         class="slide-item__head d-flex align-items-start justify-content-between">
                                         <h5>
@@ -364,10 +370,10 @@
                 </div>
             </section>
             <section class="skills ">
-                
+
                 <div class="container-fluid position-relative">
                     <div class="row align-items-center">
-                        <span class="c-white-r"></span>
+
                         <div class="col-lg-6 skills__left">
                             <h4 class="h4 _anim-items">
                                 <span>What's,</span> up?
@@ -382,7 +388,9 @@
                                 productivity?
                             </div>
                         </div>
-                        <div class="col-lg-6 skills__right text-start">
+                        <div
+                            class="col-lg-6 skills__right text-start position-relative">
+                            <span class="c-white-r"></span>
                             <img src="assets/img/woman-skills.png"
                                 alt="Skills image">
                         </div>
@@ -419,7 +427,7 @@
                                     SaaS <br> Platforms
                                 </div>
                                 <div class="tech-item__center">
-                                    <img src="assets/img/tech-1.png"
+                                    <img src="assets/img/tech-2.png"
                                         alt="tech promo">
                                 </div>
                                 <div class="tech-item__end">
@@ -434,7 +442,7 @@
                                     Web <br> Applications
                                 </div>
                                 <div class="tech-item__center">
-                                    <img src="assets/img/tech-1.png"
+                                    <img src="assets/img/tech-3.png"
                                         alt="tech promo">
                                 </div>
                                 <div class="tech-item__end">
@@ -449,7 +457,7 @@
                                     Artificial <br> Intelligence
                                 </div>
                                 <div class="tech-item__center">
-                                    <img src="assets/img/tech-1.png"
+                                    <img src="assets/img/tech-4.png"
                                         alt="tech promo">
                                 </div>
                                 <div class="tech-item__end">
@@ -480,7 +488,284 @@
                         whether working collaboratively or independently, they
                         do so in friendship.
                     </div>
-                    <img class="dive__img _anim-items"
+
+                </div>
+            </section>
+            <section class="dive dive__2 project position-relative">
+                <div class="project-circle-1 _anim-items">
+                    <img class="duck-text" src="assets/img/pro-3-text.svg" alt>
+                </div>
+                <div class="container-fluid">
+                    <div class="d-flex flex-wrap dive__text">
+                        <div
+                            class="project-item t-silver _anim-items">
+                            <p><a target="_blank" class="project-link"
+                                    href="https://hometer.md">HOMETER</a>
+                                is a real estate search portal (for sale and
+                                rent).
+                            </p>
+                            <div id="read-text-1" class="project-text">
+                                <p>
+                                    The concept is a unique service with 3D
+                                    ads
+                                    and the ability to view in 3D mode from any
+                                    device
+                                    (PC/smartphone).
+                                </p>
+                                <p>
+                                    The killer feature of the project is
+                                    providing
+                                    customers with the opportunity for full
+                                    immersion in
+                                    the 3D scan of the property without the need
+                                    to
+                                    visit it offline, which significantly saves
+                                    time
+                                    and
+                                    allows seeing more, and therefore, make a
+                                    better
+                                    choice. Also, unlike other services, this
+                                    project
+                                    provides in-depth and detailed information
+                                    about
+                                    the
+                                    property with its location on the map,
+                                    photographs
+                                    of the yard, entrance, etc., in a sense,
+                                    acting
+                                    as
+                                    an expert for the end consumer.
+                                </p>
+                                <p>
+                                    The main objects of interactive user
+                                    interaction
+                                    with the project will be: a map (location of
+                                    the
+                                    object), 3D viewing of the ad through the
+                                    API
+                                    Matterport service, detailed information and
+                                    the
+                                    ability to communicate with the agency.
+                                    hometer.md
+                                </p>
+                            </div>
+                        </div>
+                        <div class="project-btn w-100">
+                            <button id="read-1" class="btn btn-read t-white">
+                                <span id="textBtn-1">Read more</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="dive dive__2 project position-relative">
+                <div class="project-circle-2 _anim-items">
+                    <img class="duck-text" src="assets/img/pro-1-text.svg" alt>
+                </div>
+                <div class="container-fluid">
+                    <div class="d-flex flex-wrap dive__text">
+                        <div
+                            class="project-item t-silver _anim-items">
+                            <a target="_blank" class="project-link"
+                                href="https://sacralium.game">SACRALIUM.GAME</a>
+                            -
+                            Cosmogonic Myth
+
+                            <div id="read-text-2" class="project-text">
+                                <p>
+                                    The game world is a parallel universe, a
+                                    higher
+                                    plane of existence, akin to Asgard, where
+                                    gods
+                                    call
+                                    upon distinguished warriors after their
+                                    death,
+                                    plucking them out of the cycle of samsara in
+                                    lower
+                                    plane worlds.
+                                </p>
+                                <p>
+                                    Worlds on lower planes are a
+                                    projection cast by a higher plane, a higher
+                                    dimension. In even higher planes, there is
+                                    an
+                                    eternal confrontation of the chthonic forces
+                                    of
+                                    Light, Darkness, and Chaos, which is the
+                                    source
+                                    of
+                                    vibrations creating all worlds and
+                                    manifesting
+                                    in
+                                    them according to the level of each plane of
+                                    creation. At the current level of the plane
+                                    of
+                                    creation, these forces are expressed by
+                                    divine
+                                    entities, i.e., the elder gods of the cults
+                                    of
+                                    Light, Darkness, and Chaos.
+                                </p>
+                                <p>
+                                    This is the essence of the concept of this
+                                    world
+                                    and
+                                    the conflict that occurs within it. How
+                                    exactly
+                                    this
+                                    is represented in the mythology of the world
+                                    is
+                                    absolutely not important, but the
+                                    descriptions
+                                    of
+                                    gods, dialogues with spirits, magical
+                                    creatures,
+                                    and
+                                    demons of the world are based on this
+                                    foundation
+                                    and
+                                    should not contradict its main theses.
+                                    Although
+                                    the
+                                    details of the mythology and the view of the
+                                    essence
+                                    of the world may greatly differ in different
+                                    cults
+                                    and among different beings, which can be
+                                    expressed
+                                    in dialogues with NPCs.
+                                </p>
+                                <p>
+                                    Legend of the player's place in the world
+                                    After a worthy death in battle among other
+                                    heroes,
+                                    [the player's character] was honored to be
+                                    reborn
+                                    and gain immortality in [heavenly halls, the
+                                    true
+                                    world, the world of gods, the name of the
+                                    world]
+                                    to
+                                    cover their name with glory in an eternal
+                                    duel
+                                    of
+                                    the forces of Light, Darkness, and Chaos
+                                    along
+                                    with
+                                    the Gods [and, as an option, to stand
+                                    shoulder
+                                    to
+                                    shoulder with them in the final battle,
+                                    Ragnarök].
+                                    The pantheon of the world consists of 9
+                                    senior
+                                    gods,
+                                    divided into 3 cults (Light, Darkness,
+                                    Chaos).
+                                    Younger gods (immortals, i.e., moderators).
+                                    In the game, there will be altars (God
+                                    Stones)
+                                    dedicated to specific deities, with their
+                                    canonical
+                                    stylized image (coelanaglyphs (flat
+                                    reliefs),
+                                    lines
+                                    and areas glowing with magic, possibly
+                                    somewhere
+                                    painted with faded paint of pastel shades),
+                                    as
+                                    well
+                                    as possibly using canonical images of
+                                    deities on
+                                    scrolls, items, etc. sacralium.game
+                                </p>
+                            </div>
+                        </div>
+                        <div class="project-btn w-100">
+                            <button id="read-2" class="btn btn-read t-white">
+                                <span id="textBtn-2">Read more</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="dive dive__2 project position-relative">
+                <div class="project-circle-3 _anim-items">
+                    <img class="duck-text" src="assets/img/pro-2-text.svg" alt>
+                </div>
+                <div class="container-fluid">
+                    <div class="d-flex flex-wrap dive__text">
+                        <div
+                            class="project-item t-silver _anim-items  ">
+                            <a target="_blank" class="project-link"
+                                href="https://barduck.online/login">BARDUCK.ONLINE
+                            </a>
+
+                            <div id="read-text-3" class="project-text">
+                                <p>
+                                    This project is based on the idea of
+                                    organizing
+                                    an
+                                    endless list of tasks that were constantly
+                                    being
+                                    created within our company, and the attempt
+                                    to
+                                    control them, in turn, produced more and
+                                    more
+                                    new
+                                    tasks.
+                                </p>
+                                <p>
+                                    Trying to find a solution in existing
+                                    services, we spent a significant amount of
+                                    time
+                                    studying various control panels, task
+                                    managers,
+                                    graphical attributions, and as a result, did
+                                    not
+                                    achieve the desired effectiveness.
+                                </p>
+                                <p>
+                                    Thus, the <a target="_blank"
+                                        class="project-link"
+                                        href="https://barduck.online/login">BARDUCK
+                                    </a> project was born. Our entire team
+                                    works in one task manager, which is divided
+                                    into
+                                    projects, individual chats, and most
+                                    importantly
+                                    -
+                                    its own mechanics and connections. One of
+                                    the
+                                    interesting options is a system for
+                                    identifying
+                                    triggers that either contribute to the
+                                    solution
+                                    of a
+                                    task or, conversely, hinder it. The control
+                                    of
+                                    production processes by department managers
+                                    is
+                                    more
+                                    precise and prompt.
+                                </p>
+                                <p>
+                                    As of today, the project is not intended for
+                                    mass
+                                    use, being applied as a tool exclusively
+                                    within
+                                    the
+                                    company. barduck.online
+                                </p>
+                            </div>
+                        </div>
+                        <div class="project-btn w-100">
+                            <button id="read-3" class="btn btn-read t-white">
+                                <span id="textBtn-3">Read more</span>
+                            </button>
+                        </div>
+                    </div>
+                    <img class="dive__img _anim-items mt-5"
                         src="assets/img/woman-bottom.png"
                         alt="woman">
                 </div>
@@ -509,7 +794,8 @@
                                 </span>
                             </div>
                         </div>
-                        <div class="col-lg-9 lib__right _anim-items">
+                        <div
+                            class="col-lg-9 lib__right pt-5 lib__right-2 _anim-items">
                             <div id="slide-cases-1"
                                 class="slide-ceses slide-ceses-active">
                                 <div
@@ -970,6 +1256,7 @@
         <script src="assets/js/animation.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="assets/js/main.js"></script>
+        <script src="assets/js/open.js"></script>
 
         <!-- /JS -->
     </body>
